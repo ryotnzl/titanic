@@ -1,0 +1,269 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:PMingLiU;
+	panose-1:2 1 6 1 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+@font-face
+	{font-family:Menlo;}
+@font-face
+	{font-family:"\@PMingLiU";
+	panose-1:2 1 6 1 0 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0mm;
+	margin-right:0mm;
+	margin-bottom:8.0pt;
+	margin-left:0mm;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0mm;
+	margin-right:0mm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0mm;
+	margin-right:0mm;
+	margin-bottom:0mm;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0mm;
+	margin-right:0mm;
+	margin-bottom:0mm;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0mm;
+	margin-right:0mm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+.MsoChpDefault
+	{font-size:12.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.0pt 842.0pt;
+	margin:20.0mm 62.35pt 20.0mm 62.35pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0mm;}
+ul
+	{margin-bottom:0mm;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:16.0pt;line-height:115%;font-family:"Times New Roman",serif'>Exploring
+Titanic Dataset with Pandas</span></b></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'>1.
+Import the Required Libraries</span></b></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>You should
+import Pandas (import pandas as pd) and Matplotlib (import matplotlib.pyplot as
+plt) for data manipulation and visualization.</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=385 height=52 src="index_files/image001.png"
+alt="A close up of a computer screen&#10;&#10;Description automatically generated"></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'>2. Load
+the Dataset</span></b></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Load the
+Titanic dataset from a CSV file named 'titanic.csv' into a Pandas DataFrame.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0mm;line-height:13.5pt;background:white'><span
+style='font-size:9.0pt;font-family:Menlo;color:#3B3B3B'><img width=315
+height=27 id="Picture 2" src="index_files/image002.png"></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'>3. Data
+Exploration</span></b></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Display
+the first few rows of the dataset to understand its structure.</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=93 height=23 id="Picture 3" src="index_files/image003.png"></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=1330 height=126 id="Picture 4" src="index_files/image004.png"></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Print
+information about the columns and their data types.</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=94 height=27 id="Picture 5" src="index_files/image005.png"></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=358 height=345 id="Picture 6" src="index_files/image006.png"
+alt="A screenshot of a computer&#10;&#10;Description automatically generated"></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Show
+summary statistics for numerical columns (e.g., mean, min, max, etc.).</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=132 height=27 id="Picture 7" src="index_files/image007.png"></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=602 height=145 id="Picture 8" src="index_files/image008.png"
+alt="A screenshot of a computer screen&#10;&#10;Description automatically generated"></span></p>
+
+<p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'>4. Data
+Cleaning</span></b></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Identify
+and handle missing values in the dataset (e.g., fill missing age values with
+median).</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=586 height=288 id="Picture 9" src="index_files/image009.png"
+alt="A screen shot of a computer code&#10;&#10;Description automatically generated"></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Perform
+any necessary data transformations or cleaning steps.</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=164 height=31 id="Picture 10" src="index_files/image010.png"></span></p>
+
+<p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'>5. Data
+Analysis</span></b></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Calculate
+and display the count of passengers by gender.</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=593 height=146 id="Picture 11" src="index_files/image011.png"
+alt="A screen shot of a computer code&#10;&#10;Description automatically generated"></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=434 height=90 id="Picture 12" src="index_files/image012.png"
+alt="A black background with white text&#10;&#10;Description automatically generated"></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Compute
+the average age of passengers.</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=473 height=145 id="Picture 13" src="index_files/image013.png"
+alt="A computer screen shot of text&#10;&#10;Description automatically generated"></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=300 height=44 id="Picture 14" src="index_files/image014.png"></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Determine
+the survival rate by passenger class.</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=602 height=246 id="Picture 15" src="index_files/image015.png"
+alt="A computer screen with text&#10;&#10;Description automatically generated"></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=365 height=25 id="Picture 16" src="index_files/image016.png"></span></p>
+
+<p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'>6. Data
+Visualization</span></b></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Create a
+bar chart to visualize the survival rate by passenger class.</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Add
+appropriate labels and a title to the chart.</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=601 height=270 id="Picture 17" src="index_files/image017.png"
+alt="A screen shot of a computer program&#10;&#10;Description automatically generated"></span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'><img
+width=601 height=361 id="Picture 1" src="index_files/image018.png"></span></p>
+
+<p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'>7.
+Conclusion</span></b></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Summarize
+your findings or insights gained from analyzing the Titanic dataset.</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+style='font-family:Symbol;color:#156082'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman",serif;color:#156082'>The
+analysis showed a clear disparity in survival rates among different passenger
+classes.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+style='font-family:Symbol;color:#156082'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman",serif;color:#156082'>Passengers
+in first class had the highest survival rate, followed by those in second
+class, with third class passengers having the lowest survival rate.</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
+style='font-family:Symbol;color:#156082'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Times New Roman",serif;color:#156082'>This
+finding highlights the impact of socio-economic status on survival outcomes
+during the Titanic disaster.</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Reflect on
+the importance of data cleaning and exploration in data analysis.</span></p>
+
+<p class=MsoNormal><span style='font-family:"Times New Roman",serif;color:#156082'>Data
+cleaning is essential for producing accurate, reliable, and efficient analysis
+results by eliminating errors, missing values, and inconsistencies. Data
+exploration helps analysts understand the dataset's structure, identify
+patterns, and guide data cleaning, ensuring a sound basis for further analysis
+and informed decision-making. Together, these steps ensure the integrity and
+reliability of the insights derived from the data.</span></p>
+
+</div>
+
+</body>
+
+</html>
